@@ -41,26 +41,28 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtPass"
         android:layout_margin="15dp"
+        android:background="@drawable/button"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@drawable/button"
         android:text="@string/login_text"
         android:textAllCaps="true" />
+
     <TextView
+        android:id="@+id/tv_forgot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/forgot"
         android:layout_below="@id/btnLogin"
-        android:id="@+id/tv_forgot"
-        android:textColor="@android:color/white"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/forgot"
+        android:textColor="@android:color/white" />
+
     <TextView
+        android:id="@+id/tv_sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:id="@+id/tv_sign_up"
-        android:gravity="center"
-        android:textColor="@android:color/white"
         android:layout_marginBottom="@dimen/size_normal"
-        android:text="@string/signup"/>
+        android:gravity="center"
+        android:text="@string/signup"
+        android:textColor="@android:color/white" />
 </RelativeLayout>

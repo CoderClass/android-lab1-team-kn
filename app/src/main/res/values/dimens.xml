@@ -5,4 +5,5 @@
     <dimen name="size_normal">16sp</dimen>
     <dimen name="space_large">20dp</dimen>
     <dimen name="size_small">14sp</dimen>
+    <dimen name="email_pass">16sp</dimen>
 </resources>

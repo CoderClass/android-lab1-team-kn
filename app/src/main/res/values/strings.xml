@@ -9,4 +9,6 @@
     <string name="email_hint">Email</string>
     <string name="pass_hint">Password</string>
     <string name="login_text">Login</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="signup">Sign Up for Facebook</string>
 </resources>
